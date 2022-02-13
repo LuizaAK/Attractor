@@ -1,4 +1,4 @@
-const {clearInputValue} = require('../../methods/helper') // экспорт для второго it (не добавила здесь), чтобы стереть неверный username 
+const {clearInputValue} = require('../../methods/helper') // импорт для второго it (не добавила здесь), чтобы стереть неверный username 
 
 describe('LOGIN PAGE', fn: () => {  
      it('Should not login with any name except tomsmith', fn: async() => { // вводит неверный юзернейм, верный пароль, кликает, получает alert message
