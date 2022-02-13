@@ -2,7 +2,7 @@ const DropdownPage = require('../pageobjects/Dropdown.page'); //наследов
 const elem1 = $('#Option1');
 const elem2 = $('#Option2');
 
-describe('Dropdown page'), () => {
+describe('1 DD Dropdown page'), () => {
     it('should select options', async () => {     //группирую тест в mocha, далее использую assertions 
         await DropdownPage.open();                 //открывает нужную страницу
         await DropdownPage.clickDropdown.click();   //кликает на dropdown стрелку
