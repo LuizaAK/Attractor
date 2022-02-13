@@ -1,0 +1,8 @@
+const {Builder, By, Key, util} = require("selenium-webdriver"); //creating new Builder
+async function example() {                                      //async function to go to the mentioned web-page and search the word "Selenium" on the page
+    let driver = await new Builder().forBrowser("chrome").build();
+    await driver.get("http://the-internet.herokuapp.com/download");
+    await driver.findElement(By.linkText("download/some-file.txt")).sendKeys("Selenium",Key.ENTER);
+
+}
+example();
