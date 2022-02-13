@@ -1,4 +1,4 @@
-const {clearInputValue} = require('../../methods/helper') //экспорт метода для удаления введенных данных
+const {clearInputValue} = require('../../methods/helper') //импорт метода для удаления введенных данных
 const Page = require('./Page');
 const t = tab;
 const s = S;
