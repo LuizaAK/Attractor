@@ -1,7 +1,7 @@
 const LoginPage = require('../pageobjects/Login.page'); //url is in wdio.conf.js file
 
 
-describe('My Login page', () => {                              //async function using mocha
+describe('1 Lg-P My Login page', () => {                              //async function using mocha
     it('should login with valid credentials', async () => {
         await LoginPage.open();
 
