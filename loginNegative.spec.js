@@ -1,6 +1,6 @@
 const {clearInputValue} = require('../../methods/helper') // импорт для второго it (не добавила здесь), чтобы стереть неверный username 
 
-describe('LOGIN PAGE', fn: () => {  
+describe('1 Lg-N LOGIN PAGE', fn: () => {  
      it('Should not login with any name except tomsmith', fn: async() => { // вводит неверный юзернейм, верный пароль, кликает, получает alert message
         await LoginPage.open();                                             
         await LoginPage.InputUsername.setValue('johndoe');                  
