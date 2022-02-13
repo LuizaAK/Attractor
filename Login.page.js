@@ -1,6 +1,6 @@
-const Page = require('./page');
+const Page = require('./page'); //наследование страницы
 
-class LoginPage extends Page {
+class LoginPage extends Page {   //создает класс, находит селекторы, вводит по очереди данные, нажимает на кнопку Login
    
     get inputUsername() {
         return $('#username');
